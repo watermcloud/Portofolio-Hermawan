@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hermawan - Finance Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f8fafc;
+      color: #1f2937;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(to right, #0f172a, #1e40af);
+      color: white;
+      padding: 3rem 1rem 2rem;
+      text-align: center;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 1rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      animation: fadeIn 1s ease-in-out;
+    }
+    section {
+      padding: 2rem 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: #1d4ed8;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #1d4ed8;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #3b82f6;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #e0e7ff;
+      font-size: 0.9rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Hermawan" class="profile-img">
+    <h1>Hermawan</h1>
+    <p>Finance Supervisor | Future Finance Manager</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>I am a finance and accounting professional with over 9 years of experience, especially in Accounts Payable in leading retail companies in Indonesia. I am experienced in leading teams, managing invoice and payment workflows, and taking part in digital transformation projects.</p>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Finance Supervisor – PT Sinar Eka Selaras (Erajaya Group)</strong><br>Oct 2023 – Present</li>
+        <li><strong>Senior AP Staff – PT Inti Cakrawala Citra (Indomaret Group)</strong><br>Jan 2019 – Oct 2023</li>
+        <li><strong>AP Staff – PT Inti Cakrawala Citra</strong><br>Mar 2016 – Dec 2018</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Accounts Payable & Invoice Processing</li>
+        <li>Reconciliation & Verification</li>
+        <li>Team Leadership & Supervision</li>
+        <li>Finance Digitalization Projects</li>
+        <li>ERP & Excel Proficiency (SAP, Accurate)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Download My CV</h2>
+      <p><a href="CV Hermawan.pdf" class="button" download>Download CV (PDF)</a></p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: your.email@example.com<br>
+      LinkedIn: <a href="https://www.linkedin.com/in/hermawan97" target="_blank">linkedin.com/in/hermawan97</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Hermawan. All rights reserved.
+  </footer>
+</body>
+</html>
